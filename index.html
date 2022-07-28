@@ -9,7 +9,11 @@
 </head>
 <body>
     <div class="left">
-        <img src="other-files/courtney-smith-unsplash.jpg" alt="image">
+        <img id="leaves" src="other-files/courtney-smith-unsplash.jpg" alt="image">
+        <div id="block">
+            <img id="odin" src="other-files/odin-lined.png" alt="image">
+            <p id="odin-text">ODIN</p>
+        </div>
     </div>
     <div class="right">
         <div class="top section">
@@ -17,25 +21,24 @@
         </div>
         <div class="middle section">
             <p>text</p>
-            <form action="">
+            <form action="" method="post">
                 <fieldset>
                     <label for="firstName">First name:</label>
-                    <input type="text" name="firstName" id="firstName">
                     <label for="lastName">Last name:</label>
+                    
+                    <input type="text" name="firstName" id="firstName">
                     <input type="text" name="lastName" id="lastName">
-                </fieldset>
-
-                <fieldset>
+                    
                     <label for="email">Email:</label>
-                    <input type="email" name="email" id="email">
                     <label for="phone">Phone number:</label>
+                    
+                    <input type="email" name="email" id="email">
                     <input type="tel" name="phone" id="phone">
-                </fieldset>
-
-                <fieldset>
+                    
                     <label for="password">Password:</label>
-                    <input type="password" name="password" id="password">
                     <label for="password-confirm">Confirm password:</label>
+                    
+                    <input type="password" name="password" id="password">
                     <input type="password" name="password-confirm" id="password-confirm">
                 </fieldset>
             </form>
