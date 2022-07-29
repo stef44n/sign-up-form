@@ -16,6 +16,7 @@ img#leaves {
 
 .left {
     position: relative;
+    z-index: 2;
 }
 
 #block {
@@ -46,28 +47,38 @@ img#leaves {
 .right {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-grow: 1;
 }
 
 .section {
-    border: 1px solid black;
     display: block;
     padding: 20px 40px;
-    flex-grow: 1;
 }
 
-.top {
+.top,
+.bottom {
     padding-right: 30%;
-    font-size: 1.6rem;
     background-color: rgb(250, 250, 250);
     position: relative;
+    flex-grow: 1;
 }
 
 #para {
     position: relative;
     bottom: -3rem;
+    font-size: 1.6rem;
+}
 
+.middle.section > p {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+div.middle {
+    box-shadow: 0px 3px 10px rgb(185, 185, 185);
+    z-index: 1;
+    padding-bottom: 0;
 }
 
 fieldset {
@@ -84,4 +95,52 @@ fieldset {
 
 label {
     margin-top: 20px;
+}
+
+input {
+    font-size: 1.1rem;
+    border: solid 1px rgb(196, 196, 196);
+    border-radius: 4px;
+    padding: 4px 8px;
+}
+
+input:invalid {
+    border: red solid 1px;
+}
+
+input:valid {
+    border: green solid 1px;
+    background-color: rgba(0, 128, 0, 0.1);
+}
+
+input:placeholder-shown {
+    border: solid 1px rgb(196, 196, 196);
+}
+
+input:hover {
+    background-color: rgba(255, 255, 0, 0.3);
+    border: solid 1px gold;
+    box-shadow: 2px 2px 5px gold;
+}
+
+input:focus {
+    outline: none !important;
+    border: blue solid 1px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 255, 0.671);
+}
+
+input[type="submit"] {
+    background-color: rgb(182, 28, 23);
+    color: gold;
+    font-weight: bold;
+    border: 0;
+    border-radius: 10px;
+    padding: 10px 20px;
+    position: relative;
+    top: 4.5rem;
+}
+
+.bottom.section > p {
+    position: relative;
+    top: 3rem;
 }
