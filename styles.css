@@ -44,6 +44,16 @@ img#leaves {
     align-items: center;
 }
 
+#credit {
+    position: absolute;
+    bottom: 0rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 0.8rem;
+}
+
 .right {
     display: flex;
     flex-direction: column;
@@ -143,4 +153,8 @@ input[type="submit"] {
 .bottom.section > p {
     position: relative;
     top: 3rem;
+}
+
+a {
+    color: rgb(182, 28, 23);
 }
