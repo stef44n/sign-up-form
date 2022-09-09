@@ -9,7 +9,7 @@ The aim of the assignment was to create a simple sign-up form in order to practi
 <h3 align="left">Key objectives:</h3>
 
 * Practice intermediate HTML and CSS techniques
-* Use `placeholders` to help users with completing form
+* Use `placeholders` to help users with completing the form
 * Add form validation exclusively through HTML and CSS
 * Use a custom font
 
@@ -32,4 +32,4 @@ The aim of the assignment was to create a simple sign-up form in order to practi
 * <a href="https://rahuldkjain.github.io/gh-profile-readme-generator/">Rahuldkjain - ReadMe generator</a>
 
 
-<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/stef44n/calculator?label=latest%20update&logo=github&style=for-the-badge">
+<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/stef44n/sign-up-form?label=latest%20update&logo=github&style=for-the-badge">
